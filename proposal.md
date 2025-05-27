@@ -164,11 +164,14 @@ PredictVN is a prediction market platform that allows users to bet and predict f
 - NO sophisticated liquidity provision tools
 
 **❌ Professional Trading Features:**
-- NO advanced order types (stop-loss, FOK, IOC, GTD)
+- NO advanced order types (stop-loss, take-profit, IOC, FOK)
 - NO professional risk management systems
 - NO HFT optimizations and sub-millisecond matching
 - NO algorithmic trading support
 - NO advanced portfolio analytics
+- **NO price charts and technical analysis**
+- **NO historical price data visualization**
+- **NO TradingView integration**
 
 **❌ Production-Grade Infrastructure:**
 - NO 99.9% uptime guarantees
@@ -352,7 +355,7 @@ This phased approach ensures rapid MVP delivery while building a solid foundatio
 ### Phase 1: MVP Testnet (2-3 months)
 | Item | Cost (USD) |
 |------|------------|
-| Lead Developer (smart contract + devops + backend + core frontend web3) (Freelancer) | $15,000 |
+| Lead Developer (smart contract + devops + backend  + core frontend web3) (Freelancer) | $15,000 |
 | Frontend Developer (3 months) | $3,000 |
 | UI Design (Simple) | $1,000 |
 | Infrastructure (Testnet) | $500 |
@@ -416,17 +419,26 @@ This phased approach ensures rapid MVP delivery while building a solid foundatio
 ## 6. Risks and Solutions
 
 ### 6.1 Main Risks
-- **Legal**: Gambling regulations in Vietnam
+- **Legal**: Regulatory compliance across multiple jurisdictions
 - **Liquidity**: Lack of initial users
-- **Competition**: International platforms entering Vietnam
+- **Competition**: International platforms entering market
 - **Technical**: CLOB complexity and scalability
 - **Security**: Smart contract vulnerabilities
 
 ### 6.2 Solutions
-- Early legal consultation, regulatory compliance
-- Bootstrap liquidity with market making program
-- Focus on global niche markets with regional management
+#### Legal & Regulatory Approach
+- **Decentralized Architecture**: Platform hosted internationally with decentralized governance
+- **Regional Compliance Framework**: Implement region-specific rules and restrictions
+  - US markets: KYC/AML requirements for participation
+  - EU markets: GDPR compliance and document verification
+  - Restricted regions: Geo-blocking and access controls
+- **Anonymous Participation**: Support for privacy-focused users in jurisdictions where permissible
+- **Legal Structure**: International legal entity structure to avoid single-jurisdiction dependencies
+- **Proactive Compliance**: Regular legal reviews and adaptive compliance measures
+
+#### Other Risk Mitigations
 - Bootstrap liquidity with international market making program
+- Focus on global niche markets with regional management
 - Testnet validation before mainnet
 - Multiple security audits and bug bounties
 
